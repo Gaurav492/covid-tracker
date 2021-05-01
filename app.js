@@ -1,5 +1,6 @@
 let active_cases = document.querySelector('.active_cases');
 let deaths = document.querySelector('.deaths');
+let recovered = document.querySelector('.recovered');
 let last_updated = document.querySelector('.last_updated');
 
 // let select = document.querySelector('select');
@@ -36,6 +37,7 @@ function apiData(){
                     active_cases.innerHTML = numberWithCommas(state.active);
                     deaths.innerHTML = numberWithCommas(state.deaths);
                     last_updated.innerHTML = `Last updated - ${state.lastupdatedtime}`;
+                    recovered.innerHTML = numberWithCommas(state.recovered);;
                 }
                 // select.innerHTML = options;
             });

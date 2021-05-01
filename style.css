@@ -21,7 +21,7 @@ body{
 
 .card{
     border: 2px solid #46464625;
-    height: 20em;
+    /* height:20em; */
 }
 
 .card-content p{
