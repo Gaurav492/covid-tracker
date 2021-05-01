@@ -11,12 +11,12 @@ body{
     font-family: 'Lato', sans-serif;  
 }
 
-.shadow-md{
-    box-shadow: 0 4px 8px #0000001a;
+.section-main{
+    height: 56vh;
 }
 
-.columns{
-    /* margin-top: em; */
+.shadow-md{
+    box-shadow: 0 4px 8px #0000001a;
 }
 
 .card{
