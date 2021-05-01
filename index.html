@@ -4,52 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bulma.css">
     <link rel="stylesheet" href="./style.css">
     <title>Covid Tracker</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="nav">
-            <h2>CovidTracker</h2>
-        </nav>
-        <section class="main">
-            <div class="state_name">
-                <h3 class="title">Gujarat</h3>
-            </div>
 
-            <div class="cells">
-                <div class="cell ">
-                    <h3 id="title">active cases</h3>
-                    <p id="data" class="active_cases">getting data...</p>
-                </div>
-    
-                <div class="cell ">
-                    <h3 id="title">Total Cases</h3>
-                    <p class="total_cases" id="data">getting data...</p>
-                </div>
-    
-                <div class="cell ">
-                    <h3 id="title">Confirmed Cases</h3>
-                    <p class="confirmed_cases" id="data">getting data...</p>
-                </div>
-    
-                <div class="cell ">
-                    <h3 id="title">Recovered Cases</h3>
-                    <p class="recovered" id="data">getting data...</p>
-                </div>
-    
-                <div class="cell ">
-                    <h3 id="title">Deaths</h3>
-                    <p class="deaths" id="data">getting data...</p>
-                </div>
-    
-                <div class="cell ">
-                    <h3 id="title">Last Updated</h3>
-                    <p class="last_updated" id="data">getting data...</p>
+    <section class="section shadow-md has-text-centered has-background-link-light mb-6">
+        <h1 class="is-size-2 is-uppercase has-text-weight-bold has-text-link">Covid Tracker</h1>
+        <p class="is-size-6 has-text-info is-lowercase last_updated"> </p>
+    </section>
+
+
+    <!-- <div class="select px-5 mb-5 is-primary">
+        <select class=" has-background-primary-light">
+          <option>Select Indian State</option>
+        </select>
+    </div> -->
+
+    <div class="columns px-5 has-text-centered">
+        <div class="column is-half">
+            <div class="card has-background-warning-light is-flex is-justify-content-center is-align-items-center">
+                <div class="card-content">
+                    <div class="content p-4">
+                        <h2 class="is-uppercase is-size-5 has-text-dark">Active Cases</h2>
+                        <p id="data" class="active_cases is-size-2">Getting Data....</p>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="column">
+            <div class="card has-background-warning is-flex is-justify-content-center is-align-items-center">
+                <div class="card-content">
+                    <div class="content p-4">
+                        <h2 class="is-uppercase is-size-5 has-text-dark">Deaths</h2>
+                        <p class="is-size-2 deaths" id="data">Getting Data....</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    
+
     <script src="./app.js"></script>
 </body>
 </html>
