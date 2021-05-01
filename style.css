@@ -12,15 +12,20 @@ body{
 }
 
 .shadow-md{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.103);
+    box-shadow: 0 4px 8px #0000001a;
+}
+
+.columns{
+    /* margin-top: em; */
 }
 
 .card{
-    /* border: 1px solid yellow; */
+    border: 2px solid #46464625;
+    height: 20em;
 }
 
 .card-content p{
-    color: rgb(117, 117, 117);
+    color: #757575;
 }
 
 .select{

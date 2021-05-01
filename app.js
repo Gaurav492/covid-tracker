@@ -16,9 +16,8 @@ function apiData(){
             return res.json();
         }).then(function(data){
             let states = data.statewise;
-
-            let options = ''
             
+            console.log(states);
             // states.forEach(state => {
                 //     console.log(state.state);
             //     select.innerHTML = `<option>${states.state}</option>`;
