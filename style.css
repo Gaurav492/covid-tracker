@@ -11,9 +11,7 @@ body{
     font-family: 'Lato', sans-serif;  
 }
 
-.section-main{
-    height: 56vh;
-}
+
 
 .shadow-md{
     box-shadow: 0 4px 8px #0000001a;
